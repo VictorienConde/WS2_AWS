@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello depuis ecr-nodejs-app 🚀 (Docker + AWS ECR)");
+  res.send("Hello depuis ecr-nodejs-app 🚀 (Docker + AWS ECR) xD");
 });
 
 app.listen(PORT, () => {
